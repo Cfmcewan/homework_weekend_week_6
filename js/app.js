@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
     titlePara.textContent = title;
     yearPara.textContent = year;
     categoryPara.textContent = category;
-    ratingPara.textContent = `Score out of 5 is: ${rating}`;
+    ratingPara.textContent = `Film Rating is: ${rating} out of 5`;
 
     filmDetails.appendChild(titlePara);
     filmDetails.appendChild(yearPara);
